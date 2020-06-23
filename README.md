@@ -13,24 +13,24 @@
 ### The fact and dimension table for this project are presented below. 
 
 #### Dimension Tables:
-•	users
-•	columns: user_id, first_name, last_name, gender, level
-•	songs
-•	columns: song_id, title, artist_id, year, duration
-•	artists
-•	columns: artist_id, name, location, lattitude, longitude
-•	time
-•	columns: start_time, hour, day, week, month, year, weekday
+#####•	users
+#####•	columns: user_id, first_name, last_name, gender, level
+#####•	songs
+#####•	columns: song_id, title, artist_id, year, duration
+#####•	artists
+#####•	columns: artist_id, name, location, lattitude, longitude
+#####•	time
+#####•	columns: start_time, hour, day, week, month, year, weekday
 
 #### Fact Table:
 
-•	songplays
-•	columns: songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
+#####•	songplays
+#####•	columns: songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
 
 ## To run the project:
 
 #### The following steps are followed to run the project: 
-•	Run the command to install the requirements pip install -r requirements.txt
-•	Use Amazon Redshift cluster credentials and the IAM role to update the dwh.cfg file. 
-•	Run python create_tables.py. to create the database and other tables needed. 
-•	Run python etl.py. to start the pipeline that reads data from files and populate the tables. 
+#####•	Run the command to install the requirements pip install.
+#####•	Use Amazon Redshift cluster credentials and the IAM role to update the dwh.cfg file. 
+#####•	Run python create_tables.py. to create the database and other tables needed. 
+#####•	Run python etl.py. to start the pipeline that reads data from files and populate the tables. 
